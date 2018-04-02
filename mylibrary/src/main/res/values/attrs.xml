@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="fillRadius" format="boolean"/>
+        <attr name="barWidth" format="integer"/>
+        <attr name="rimWidth" format="integer"/>
+        <attr name="spinSpeed" format="float"/>
+        <attr name="barSpinCycleTime" format="integer"/>
+        <attr name="barColor" format="color"/>
+        <attr name="rimColor" format="color"/>
+        <attr name="progressIndeterminate" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LMBanners">
+        <attr name = "canLoop" format = "boolean" />
+        <attr name="durtion" format="integer"></attr>
+        <attr name="scroll_duration" format="integer"></attr>
+        <attr name="indicator_select" format="reference"></attr>
+        <attr name="indicator_unselect" format="reference"></attr>
+        <attr name="isGuide" format="boolean"></attr>
+        <attr name="indicatorBottomPadding" format="integer"></attr>
+        <attr name="indicator_position" />
+        <attr name="auto_play" format="boolean" />
+        <attr name="horizontal_transitionEffect"  />
+        <!-- 是否纵向滑动-->
+        <attr name="isVertical" format="boolean" />
+        <!--指示器原点大小-->
+        <attr name="indicator_width" format="integer" />
+    </declare-styleable>
+
+    <attr name="horizontal_transitionEffect" format="enum">
+        <enum name="defaultEffect" value="0" />
+        <enum name="alpha" value="1" />
+        <enum name="rotate" value="2" />
+        <enum name="cube" value="3" />
+        <enum name="flip" value="4" />
+        <enum name="accordion" value="5" />
+        <enum name="zoomFade" value="6" />
+        <enum name="fade" value="7" />
+        <enum name="zoomCenter" value="8" />
+        <enum name="zoomStack" value="9" />
+        <enum name="stack" value="10" />
+        <enum name="depth" value="11" />
+        <enum name="zoom" value="12" />
+        <enum name="zoomOut" value="13" />
+
+
+    </attr>
+    <!-- 指示器位置-->
+    <attr name="indicator_position">
+        <enum name="bottom_mid" value="0" />
+        <enum name="bottom_right" value="1" />
+    </attr>
+
+    <declare-styleable name="CircleTextProgressbar">
+    <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!-- RTextView -->
+    <declare-styleable name="RTextView">
+
+        <!--四周圆角度、左上、右上、左下、右下-->
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_radius_top_left" format="dimension" />
+        <attr name="corner_radius_top_right" format="dimension" />
+        <attr name="corner_radius_bottom_left" format="dimension" />
+        <attr name="corner_radius_bottom_right" format="dimension" />
+
+        <!--虚线边框宽度/间隔-->
+        <attr name="border_dash_width" format="dimension" />
+        <attr name="border_dash_gap" format="dimension" />
+
+        <!--边框宽度-->
+        <attr name="border_width_normal" format="dimension" />
+        <attr name="border_width_pressed" format="dimension" />
+        <attr name="border_width_unable" format="dimension" />
+
+        <!--边框颜色-->
+        <attr name="border_color_normal" format="color" />
+        <attr name="border_color_pressed" format="color" />
+        <attr name="border_color_unable" format="color" />
+
+        <!--背景颜色-->
+        <attr name="background_normal" format="color" />
+        <attr name="background_pressed" format="color" />
+        <attr name="background_unable" format="color" />
+
+        <!--文本颜色-->
+        <attr name="text_color_normal" format="color" />
+        <attr name="text_color_pressed" format="color" />
+        <attr name="text_color_unable" format="color" />
+
+        <!--图标资源-->
+        <attr name="icon_src_normal" format="reference" />
+        <attr name="icon_src_pressed" format="reference" />
+        <attr name="icon_src_unable" format="reference" />
+
+        <!--图标、大小、位置-->
+        <attr name="icon_height" format="dimension" />
+        <attr name="icon_width" format="dimension" />
+        <attr name="icon_direction">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="StateButton">
+
+        <!--text color-->
+        <attr name="normalTextColor" format="color|reference"/>
+        <attr name="pressedTextColor" format="color|reference"/>
+        <attr name="unableTextColor" format="color|reference"/>
+
+        <!--stroke width and color, dash width, dash gap-->
+        <attr name="strokeDashWidth" format="dimension|reference"/>
+        <attr name="strokeDashGap" format="dimension|reference"/>
+        <attr name="normalStrokeWidth" format="dimension|reference"/>
+        <attr name="pressedStrokeWidth" format="dimension|reference"/>
+        <attr name="unableStrokeWidth" format="dimension|reference"/>
+        <attr name="normalStrokeColor" format="color|reference"/>
+        <attr name="pressedStrokeColor" format="color|reference"/>
+        <attr name="unableStrokeColor" format="color|reference"/>
+
+        <!--background color-->
+        <attr name="normalBackgroundColor" format="color|reference"/>
+        <attr name="pressedBackgroundColor" format="color|reference"/>
+        <attr name="unableBackgroundColor" format="color|reference"/>
+
+        <!--background radius-->
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="round" format="boolean|reference"/>
+
+        <!--animation duration-->
+        <attr name="animationDuration" format="integer|reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="StateImageView">
+        <attr name="normalBackground" format="color|reference"/>
+        <attr name="pressedBackground" format="color|reference"/>
+        <attr name="unableBackground" format="color|reference"/>
+
+        <!--animation duration-->
+        <attr name="AnimationDuration" format="integer|reference"/>
+    </declare-styleable>
+
+</resources>

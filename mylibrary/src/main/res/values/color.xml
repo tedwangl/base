@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dialog-->
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+    <color name="light_blue">#0099FF</color>
+    <color name="blue">#0066FF</color>
+    <color name="line">#797979</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="txtblack">#6F6F6F</color>
+    <color name="brown">#795548</color>
+    <color name="orange">#FF6347</color>
+    <color name="yellow">#FF9800</color>
+    <color name="purple">#673AB7</color>
+    <color name="pink">#E91E63</color>
+    <color name="green">#4CAF50</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="dark_blue">#1A79D5</color>
+    <color name="dark_red">#F4511E</color>
+    <color name="accent_red">#FF5722</color>
+    <color name="dark_brown">#5D4037</color>
+    <color name="accent_brown">#795548</color>
+    <color name="dark_blue_grey">#455A64</color>
+    <color name="accent_blue_grey">#607D8B</color>
+    <color name="dark_yellow">#F57C00</color>
+    <color name="accent_yellow">#FF9800</color>
+    <color name="dark_deep_purple">#512DA8</color>
+    <color name="accent_deep_purple">#7C4DFF</color>
+    <color name="dark_pink">#C2185B</color>
+    <color name="accent_pink">#FF5722</color>
+    <color name="dark_green">#388E3C</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="white_transparent">#80ffffff</color>
+
+    <!-- common -->
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#8f000000</color>
+
+    <!-- background -->
+    <color name="bg">#FFF5F5F5</color>
+    <color name="bg_pressed">#FFF2F2F2</color>
+
+    <!-- material design black font color -->
+    <color name="font_black_0">#212121</color>
+    <color name="font_black_1">#424242</color>
+    <color name="font_black_2">#616161</color>
+    <color name="font_black_3">#757575</color>
+    <color name="font_black_4">#9e9e9e</color>
+    <color name="font_black_5">#bdbdbd</color>
+    <color name="font_black_6">#e0e0e0</color>
+
+    <!-- divider -->
+    <color name="divider_1">#e2e2e2</color>
+    <color name="divider_2">#e6e6e6</color>
+</resources>
