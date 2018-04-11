@@ -36,5 +36,5 @@ dependencies {
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     /*lottie-android*/
-    compile 'com.airbnb.android:lottie:2.5.0-beta3'
+    //compile 'com.airbnb.android:lottie:2.5.0-beta3'
 }
